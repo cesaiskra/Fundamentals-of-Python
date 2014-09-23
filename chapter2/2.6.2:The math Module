@@ -1,0 +1,20 @@
+>>> import math
+>>> dir(math)
+['__doc__', '__file__', '__name__', 'acos', 'asin', 'atan', 'atan2', 'ceil',
+ 'cos', 'cosh', 'degrees', 'e', 'exp', 'fabs', 'floor', 'fmod', 'frexp', 
+'hypot', 'ldexp', 'log', 'log10', 'modf', 'pi', 'pow', 'radians', 'sin', 
+'sinh', 'sqrt', 'tan', 'tanh']
+
+
+
+>>> math.pi
+3.1415926535897931
+>>> math.sqrt(2)
+1.4142135623730951
+
+
+
+>>> from math import pi, sqrt
+>>> print pi, sqrt(2)
+3.14159265359 1.41421356237
+>>>
